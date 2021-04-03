@@ -6,7 +6,8 @@
 
 ```bash
 git pull origin main
-pipenv shell
+docker-compose build
+docker-compose up -d
 ```
 
 ## GET /api/sets
